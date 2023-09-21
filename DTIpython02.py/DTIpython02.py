@@ -1,0 +1,6 @@
+celcuis = int(input("ใส่อุณหภูมิ"))
+fahcal = str( 9 / 5 * celcuis + 32)
+print("อุณหภูมิ:" ,fahcal, "องศาฟาเรนไฮต์")
+print("อุณหภูมิ:"+fahcal+ "องศาฟาเรนไฮต์")
+print(f"อุณหภูมิ:{fahcal}องศาฟาเรนไฮต์")
+print("อุณหภูมิ: {} องศาฟาเรนไฮต์".format(fahcal))

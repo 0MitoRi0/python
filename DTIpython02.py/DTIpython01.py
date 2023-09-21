@@ -1,0 +1,8 @@
+money = input("ใส่จำนวนเงิน:")
+people = input("ใส่จำนวนคน")
+value = int(money)/float(people)
+valuecost = format(value,".2f")
+print(" เฉลี่่ยคนละ",valuecost,"บาท")
+print(" เฉลี่่ยคนละ"+valuecost+"บาท")
+print(f" เฉลี่่ยคนละ {valuecost} บาท")
+print(" เฉลี่่ยคนละ {} บาท".format(valuecost))
